@@ -6,14 +6,14 @@ library(stringr)
 library(ggplot2)
 
 # Creating a dataframe with scrapped text from Business Insider
-business_insider_df <- data.frame(read_delim("/Users/vinicius/code/vishizaki/sentiment_analysis_business_report/data.csv",
+business_insider_df <- data.frame(read_delim("/Users/vinicius/code/vishizaki/sentiment-analysis-cnbc-bi/data.csv",
                      "\t", escape_double = FALSE, col_names = FALSE,
                      trim_ws = TRUE))
 # Renaming column name to text
 names(business_insider_df)[1] <- "text"
 
 # Creating a dataframe with scrapped text from CNBC Business
-cnbc_df <- data.frame(read_delim("/Users/vinicius/code/vishizaki/sentiment_analysis_business_report/data_cnbc.csv",
+cnbc_df <- data.frame(read_delim("/Users/vinicius/code/vishizaki/sentiment-analysis-cnbc-bi/data_cnbc.csv",
                                              "\t", escape_double = FALSE, col_names = FALSE,
                                              trim_ws = TRUE))
 # Renaming column name to text
