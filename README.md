@@ -1,4 +1,4 @@
-# sentiment-analysis-cnbc-bi
+Sentiment Analysis for CNBC and Business Insider articles
 R code for sentiment analysis on CNBC and Business Insider articles
 
 I believe that with a good financial planning and a great investment strategy, people can succeed on achieving their financial independence. Nowadays we have a lot of options of products to invest, ranging from conservative investment on savings to complex products such as options and to newly developed sources of investments such as crypto currency. With that said, not only we need to be aware of the different financial instruments but also we need to know about economy and trends in order to do the best investment in the correct time frame, as an example, during periods of bearish markets, people tend to go to more conservative investments such as fixed income and if you are not aware, you can lose a lot of money on the stock market.
